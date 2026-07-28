@@ -1,0 +1,156 @@
+{
+  "changedFields": 237,
+  "changedQuestions": 194,
+  "sample": [
+    {
+      "id": "SWR302-Q0001",
+      "field": "question",
+      "before": "RRR RRR RRR RRR RRR RRR RR RRR RRR RRR RRR RRR ===, Some stakeholders are customers, such as legal staff, compliance auditors, suppliers, contractors, and venture capitalists",
+      "after": "Some stakeholders are customers, such as legal staff, compliance auditors, suppliers, contractors, and venture capitalists"
+    },
+    {
+      "id": "SWR302-Q0002",
+      "field": "question",
+      "before": "_ Which elements are mandatory in use case?",
+      "after": "Which elements are mandatory in use case?"
+    },
+    {
+      "id": "SWR302-Q0003",
+      "field": "question",
+      "before": "EERE EEEEEEEEEEEEERRREREEEEEEEEEEREEEEEREEEEEEEEERREEEEREEREREEEEEEEEEEEEEEEES——— What do product champions do? Choose 2 correct answers.",
+      "after": "What do product champions do? Choose 2 correct answers."
+    },
+    {
+      "id": "SWR302-Q0004",
+      "field": "question",
+      "before": "____________________________________________________________________ Which of the following tasks are typically performed by a business analyst? Select two.",
+      "after": "Which of the following tasks are typically performed by a business analyst? Select two."
+    },
+    {
+      "id": "SWR302-Q0005",
+      "field": "question",
+      "before": "EE — EE —— Which of the following statements about reaching agreement on requirements is accurate? Select two.",
+      "after": "Which of the following statements about reaching agreement on requirements is accurate? Select two."
+    },
+    {
+      "id": "SWR302-Q0006",
+      "field": "question",
+      "before": "EEE EERE What is the benefit of having a small group representing key areas as decision makers in a project?",
+      "after": "What is the benefit of having a small group representing key areas as decision makers in a project?"
+    },
+    {
+      "id": "SWR302-Q0008",
+      "field": "question",
+      "before": "EERE EE EEEEEEEERERRREREEEERREEEERRRERERRERREEEEREEEEEEEEEEEEEEEESEEEEE——————————— Which of the following statements accurately describes the role of a business analyst in a project? Select two.",
+      "after": "Which of the following statements accurately describes the role of a business analyst in a project? Select two."
+    },
+    {
+      "id": "SWR302-Q0010",
+      "field": "question",
+      "before": "_ _______________________________________________________________ Which of the following are advantages of reusing requirements? (Choose 2 answers)",
+      "after": "Which of the following are advantages of reusing requirements? (Choose 2 answers)"
+    },
+    {
+      "id": "SWR302-Q0011",
+      "field": "question",
+      "before": "Which of the following statements correctly distinguishes between product requirements and project requirements? Select two. Hoang Hoang",
+      "after": "Which of the following statements correctly distinguishes between product requirements and project requirements? Select two."
+    },
+    {
+      "id": "SWR302-Q0012",
+      "field": "question",
+      "before": "RRR RRR RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRANRRRRRRRRCRRRRRRRRRRRRCCRRRRRCCCECCCCCCGGCCGCGGC»~, Which of the following statements about the requirements development process’ framework is accurate? Select two.",
+      "after": "Which of the following statements about the requirements development process’ framework is accurate? Select two."
+    },
+    {
+      "id": "SWR302-Q0013",
+      "field": "question",
+      "before": "_————,, Which of the following statements accurately describe the use of context diagrams in representing project scope? Select two.",
+      "after": "Which of the following statements accurately describe the use of context diagrams in representing project scope? Select two."
+    },
+    {
+      "id": "SWR302-Q0015",
+      "field": "question",
+      "before": "RRR RRR RRR RRR RRR RRR RR RR RRR RR RR RR RR RRR RR RRR RR RRR RR RRR RR RRR RR RR RR RRR RR RRR RR RRR RRR RR RRR RR RRR RRR RRR RRR RR RRR RRR RRR RRR RRR RRR RRR, Which of the following statements accurately describe preconditions and postconditions in the context of use cases? Select two.",
+      "after": "Which of the following statements accurately describe preconditions and postconditions in the context of use cases? Select two."
+    },
+    {
+      "id": "SWR302-Q0017",
+      "field": "question",
+      "before": "EERE EE E=SE—=ENSSS—SS Which of the following statements accurately describe the use case approach? Select two.",
+      "after": "Which of the following statements accurately describe the use case approach? Select two."
+    },
+    {
+      "id": "SWR302-Q0019",
+      "field": "question",
+      "before": "-________________________________________________________________ Which type of requirement best describes the behavior and information that the solution will manage, including specific system actions or responses?",
+      "after": "Which type of requirement best describes the behavior and information that the solution will manage, including specific system actions or responses?"
+    },
+    {
+      "id": "SWR302-Q0020",
+      "field": "question",
+      "before": "J ORR RRRORBBNNBBEOOOEEER When defining the scope and limitations of a product, which of the following practices should be followed? Select two.",
+      "after": "When defining the scope and limitations of a product, which of the following practices should be followed? Select two."
+    },
+    {
+      "id": "SWR302-Q0021",
+      "field": "question",
+      "before": "RR RR RR RRR RRR RR RRR RRR RRR RRR RRR RRR RR RRR RRR RR RRR RR RR RR RRR RRR RRR RR RRR RRR RRR RR RR RRR RR RRR RR RRR RRR, When specifying the level of detail in software requirements, which of the following practices should be considered? Select two.",
+      "after": "When specifying the level of detail in software requirements, which of the following practices should be considered? Select two."
+    },
+    {
+      "id": "SWR302-Q0021",
+      "field": "option A",
+      "before": "Itis always necessary to specify all requirements at the same high level of detail to ensure consistency.",
+      "after": "It is always necessary to specify all requirements at the same high level of detail to ensure consistency."
+    },
+    {
+      "id": "SWR302-Q0022",
+      "field": "question",
+      "before": "EEE EEE EERE When choosing the appropriate representation techniques for analysis models, which of the following guidelines should be followed? Select two.",
+      "after": "When choosing the appropriate representation techniques for analysis models, which of the following guidelines should be followed? Select two."
+    },
+    {
+      "id": "SWR302-Q0024",
+      "field": "question",
+      "before": "cz __________________________________________________________________ Why is clear communication crucial in acquirer-supplier interactions in outsourced projects? (Choose 2 answers)",
+      "after": "Why is clear communication crucial in acquirer-supplier interactions in outsourced projects? (Choose 2 answers)"
+    },
+    {
+      "id": "SWR302-Q0026",
+      "field": "question",
+      "before": "EE —— Two important goals of writing requirements are that:",
+      "after": "Two important goals of writing requirements are that:"
+    },
+    {
+      "id": "SWR302-Q0027",
+      "field": "question",
+      "before": "RRR RRR RRR RRR RRR RRR RR RRR RR RRR RRR RR RR RRR RRR RRR, We can reuse all authentication requirements from the previous project by copy from a library of reusable components. Which dimensions does the statement refer to?",
+      "after": "We can reuse all authentication requirements from the previous project by copy from a library of reusable components. Which dimensions does the statement refer to?"
+    },
+    {
+      "id": "SWR302-Q0028",
+      "field": "question",
+      "before": "RR. What is true about a software prototype? Choose 3 correct answers.",
+      "after": "What is true about a software prototype? Choose 3 correct answers."
+    },
+    {
+      "id": "SWR302-Q0028",
+      "field": "option A",
+      "before": "Itis a partial implementation of a proposed new product.",
+      "after": "It is a partial implementation of a proposed new product."
+    },
+    {
+      "id": "SWR302-Q0028",
+      "field": "option B",
+      "before": "Itis a possible implementation of a proposed new product.",
+      "after": "It is a possible implementation of a proposed new product."
+    },
+    {
+      "id": "SWR302-Q0028",
+      "field": "option C",
+      "before": "Itis a preliminary implementation of a proposed new product.",
+      "after": "It is a preliminary implementation of a proposed new product."
+    }
+  ]
+}

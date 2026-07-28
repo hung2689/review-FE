@@ -1,0 +1,25 @@
+{
+  "expectedImages": 439,
+  "discoveredImages": 439,
+  "processedImages": 439,
+  "successfulImages": 429,
+  "failedImages": [
+    "slide_006.png",
+    "slide_047.png",
+    "slide_094.png",
+    "slide_254.png",
+    "slide_267.png",
+    "slide_294.png",
+    "slide_302.png",
+    "slide_319.png",
+    "slide_392.png",
+    "slide_432.png"
+  ],
+  "totalStudyMaterials": 30,
+  "totalExtractedQuestions": 356,
+  "validQuizQuestions": 356,
+  "questionsWithoutCorrectAnswer": 0,
+  "questionsNeedingReview": 0,
+  "duplicateQuestionsRemoved": 43,
+  "completed": true
+}
