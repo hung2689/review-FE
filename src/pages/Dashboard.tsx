@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, BookOpen, Database, RotateCcw, Settings2 } from 'lucide-react';
+import { ArrowRight, BookMarked, BookOpen, Database, RotateCcw, Settings2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
 import { Metric } from '../components/Metric';
@@ -37,6 +37,11 @@ export function Dashboard() {
             <Link to="/materials">
               <Button>
                 <BookOpen size={16} /> Xem tài liệu
+              </Button>
+            </Link>
+            <Link to="/study">
+              <Button>
+                <BookMarked size={16} /> Học bài
               </Button>
             </Link>
             <Link to="/wrong">
@@ -81,4 +86,3 @@ export function Dashboard() {
     </div>
   );
 }
-

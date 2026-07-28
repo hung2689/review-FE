@@ -6,6 +6,7 @@ import { MaterialsPage } from './pages/MaterialsPage';
 import { PracticePage } from './pages/PracticePage';
 import { PracticeSetupPage } from './pages/PracticeSetupPage';
 import { ResultsPage } from './pages/ResultsPage';
+import { StudyPage } from './pages/StudyPage';
 import { WrongPracticePage } from './pages/WrongPracticePage';
 
 export function App() {
@@ -14,6 +15,7 @@ export function App() {
       <Route element={<AppShell />}>
         <Route path="/" element={<Dashboard />} />
         <Route path="/materials" element={<MaterialsPage />} />
+        <Route path="/study" element={<StudyPage />} />
         <Route path="/practice/setup" element={<PracticeSetupPage />} />
         <Route path="/practice" element={<PracticePage />} />
         <Route path="/results" element={<ResultsPage />} />
@@ -24,4 +26,3 @@ export function App() {
     </Routes>
   );
 }
-
