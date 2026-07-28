@@ -1,10 +1,9 @@
-import { BookMarked, BookOpen, ClipboardCheck, Database, Home, Moon, RotateCcw, Settings2, Sun } from 'lucide-react';
+import { BookMarked, ClipboardCheck, Database, Home, Moon, RotateCcw, Settings2, Sun } from 'lucide-react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { useTheme } from '../hooks/useTheme';
 
 const links = [
   { to: '/', label: 'Home', icon: Home },
-  { to: '/materials', label: 'Tài liệu', icon: BookOpen },
   { to: '/study', label: 'Học bài', icon: BookMarked },
   { to: '/practice/setup', label: 'Luyện tập', icon: Settings2 },
   { to: '/wrong', label: 'Câu sai', icon: RotateCcw },

@@ -5,15 +5,13 @@ import { Button } from '../components/Button';
 import { buildPracticeSession } from '../hooks/usePracticeSession';
 import { loadStats, saveActiveSession } from '../services/storage';
 import type { PracticeConfig } from '../types/swr302';
-import { getChapters, getTopics, validPracticeQuestions } from '../utils/data';
+import { validPracticeQuestions } from '../utils/data';
 
 const counts: Array<PracticeConfig['questionCount']> = [10, 20, 30, 50, 'all'];
 
 export function PracticeSetupPage() {
   const navigate = useNavigate();
   const stats = loadStats();
-  const chapters = getChapters();
-  const topics = getTopics();
   const [config, setConfig] = useState<PracticeConfig>({
     mode: 'all',
     chapter: '',
@@ -44,34 +42,11 @@ export function PracticeSetupPage() {
       </div>
 
       <div className="rounded-md border border-line bg-panel p-5">
-        <div className="grid gap-5 md:grid-cols-2">
-          <label className="space-y-2">
-            <span className="text-sm font-semibold">Chế độ</span>
-            <select className="h-11 w-full rounded-md border border-line bg-canvas px-3 text-sm" value={config.mode} onChange={(event) => update('mode', event.target.value as PracticeConfig['mode'])}>
-              <option value="all">Luyện tất cả câu</option>
-              <option value="chapter">Luyện theo chương</option>
-              <option value="topic">Luyện theo chủ đề</option>
-              <option value="wrong">Chỉ luyện câu đã sai</option>
-            </select>
-          </label>
-          <label className="space-y-2">
+        <div className="max-w-sm">
+          <label className="block space-y-2">
             <span className="text-sm font-semibold">Số lượng câu</span>
             <select className="h-11 w-full rounded-md border border-line bg-canvas px-3 text-sm" value={String(config.questionCount)} onChange={(event) => update('questionCount', event.target.value === 'all' ? 'all' : Number(event.target.value))}>
               {counts.map((count) => <option key={String(count)} value={String(count)}>{count === 'all' ? 'Tất cả câu' : `${count} câu`}</option>)}
-            </select>
-          </label>
-          <label className="space-y-2">
-            <span className="text-sm font-semibold">Chương</span>
-            <select className="h-11 w-full rounded-md border border-line bg-canvas px-3 text-sm" value={config.chapter} disabled={config.mode !== 'chapter'} onChange={(event) => update('chapter', event.target.value)}>
-              <option value="">Chọn chương</option>
-              {chapters.map((chapter) => <option key={chapter} value={chapter}>{chapter}</option>)}
-            </select>
-          </label>
-          <label className="space-y-2">
-            <span className="text-sm font-semibold">Chủ đề</span>
-            <select className="h-11 w-full rounded-md border border-line bg-canvas px-3 text-sm" value={config.topic} disabled={config.mode !== 'topic'} onChange={(event) => update('topic', event.target.value)}>
-              <option value="">Chọn chủ đề</option>
-              {topics.map((topic) => <option key={topic} value={topic}>{topic}</option>)}
             </select>
           </label>
         </div>
@@ -104,4 +79,3 @@ export function PracticeSetupPage() {
     </div>
   );
 }
-

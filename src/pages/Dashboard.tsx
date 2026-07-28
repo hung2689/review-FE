@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, BadgeCheck, BookMarked, BookOpen, Code2, Database, RotateCcw } from 'lucide-react';
+import { ArrowRight, BadgeCheck, BookMarked, Code2, Database, RotateCcw } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
 import { Metric } from '../components/Metric';
@@ -22,7 +22,7 @@ export function Dashboard() {
         >
           <p className="text-sm font-semibold uppercase tracking-wide text-accent">SWR302 Practice Hub</p>
           <h1 className="mt-3 max-w-3xl text-3xl font-bold leading-tight md:text-4xl">
-            Học tài liệu, kiểm tra OCR, luyện tập câu hỏi đã có đáp án rõ ràng.
+            Học bài, kiểm tra OCR, luyện tập câu hỏi đã có đáp án rõ ràng.
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-muted">
             App giữ nguyên nội dung trích xuất từ ảnh, không tự đoán đáp án. Câu chưa chắc chắn được đưa vào khu vực review
@@ -32,11 +32,6 @@ export function Dashboard() {
             <Link to="/practice/setup">
               <Button variant="primary">
                 Bắt đầu luyện tập <ArrowRight size={16} />
-              </Button>
-            </Link>
-            <Link to="/materials">
-              <Button>
-                <BookOpen size={16} /> Xem tài liệu
               </Button>
             </Link>
             <Link to="/study">
@@ -70,44 +65,42 @@ export function Dashboard() {
         </div>
       </section>
 
-      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-        <Metric label="Tổng tài liệu" value={stats.materialCount} />
+      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         <Metric label="Câu hỏi hợp lệ" value={stats.validQuestionCount} detail={`${stats.reviewQuestionCount} cần review`} />
         <Metric label="Tổng chương" value={stats.chapterCount} />
         <Metric label="Đã luyện tập" value={stats.practicedCount} />
         <Metric label="Tỷ lệ đúng" value={`${stats.correctRate}%`} />
       </section>
 
-      <section className="overflow-hidden rounded-md border border-line bg-panel shadow-soft">
-        <div className="grid gap-0 lg:grid-cols-[320px_minmax(0,1fr)]">
-          <div className="bg-panel2">
+      <section className="rounded-md border border-line bg-panel p-4 shadow-soft md:p-5">
+        <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
             <img
               src="/builder-tony.jpg"
-              alt="Phạm Duy Hưng, nickname tony"
-              className="h-80 w-full object-cover object-[50%_60%] lg:h-full"
+              alt="Phạm Duy Hưng"
+              className="size-24 rounded-md border border-line object-cover object-[48%_62%] shadow-soft sm:size-28"
             />
+            <div className="min-w-0">
+              <div className="inline-flex w-fit items-center gap-2 rounded-md border border-line bg-canvas px-3 py-2 text-sm font-semibold text-accent">
+                <Code2 size={16} />
+                Built by
+              </div>
+              <h2 className="mt-3 text-2xl font-bold leading-tight">Phạm Duy Hưng</h2>
+              <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">
+                Builder của SWR302 Practice Hub, biến bộ ảnh slide gốc thành app học bài, luyện tập, xem câu sai và review dữ liệu.
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col justify-center p-5 md:p-6">
-            <div className="inline-flex w-fit items-center gap-2 rounded-md border border-line bg-canvas px-3 py-2 text-sm font-semibold text-accent">
-              <Code2 size={16} />
-              Built by
-            </div>
-            <h2 className="mt-4 text-2xl font-bold leading-tight md:text-3xl">Phạm Duy Hưng</h2>
-            <p className="mt-2 text-sm font-semibold text-muted">Nickname: tony</p>
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-muted">
-              Người build SWR302 Practice Hub, từ bộ ảnh slide gốc thành app học bài, luyện tập, xem câu sai và review dữ liệu.
-            </p>
-            <div className="mt-5 flex flex-wrap gap-2 text-sm font-semibold">
-              <span className="inline-flex items-center gap-2 rounded-md bg-accent/10 px-3 py-2 text-accent">
-                <BadgeCheck size={16} /> Source images
-              </span>
-              <span className="inline-flex items-center gap-2 rounded-md bg-success/10 px-3 py-2 text-success">
-                <BadgeCheck size={16} /> Answer review
-              </span>
-              <span className="inline-flex items-center gap-2 rounded-md bg-warning/10 px-3 py-2 text-warning">
-                <BadgeCheck size={16} /> Study mode
-              </span>
-            </div>
+          <div className="flex flex-wrap gap-2 text-sm font-semibold md:max-w-xs md:justify-end">
+            <span className="inline-flex items-center gap-2 rounded-md bg-accent/10 px-3 py-2 text-accent">
+              <BadgeCheck size={16} /> Source images
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-md bg-success/10 px-3 py-2 text-success">
+              <BadgeCheck size={16} /> Answer review
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-md bg-warning/10 px-3 py-2 text-warning">
+              <BadgeCheck size={16} /> Study mode
+            </span>
           </div>
         </div>
       </section>

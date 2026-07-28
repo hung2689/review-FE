@@ -2,7 +2,6 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
 import { Dashboard } from './pages/Dashboard';
 import { DataReviewPage } from './pages/DataReviewPage';
-import { MaterialsPage } from './pages/MaterialsPage';
 import { PracticePage } from './pages/PracticePage';
 import { PracticeSetupPage } from './pages/PracticeSetupPage';
 import { ResultsPage } from './pages/ResultsPage';
@@ -14,7 +13,6 @@ export function App() {
     <Routes>
       <Route element={<AppShell />}>
         <Route path="/" element={<Dashboard />} />
-        <Route path="/materials" element={<MaterialsPage />} />
         <Route path="/study" element={<StudyPage />} />
         <Route path="/practice/setup" element={<PracticeSetupPage />} />
         <Route path="/practice" element={<PracticePage />} />
