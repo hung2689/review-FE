@@ -147,7 +147,7 @@ export function StudyPage() {
                   <p className="text-xs font-semibold uppercase tracking-wide text-muted">Câu hỏi OCR</p>
                   <h2 className="mt-2 whitespace-pre-wrap text-xl font-bold leading-8">{currentQuestion.question}</h2>
                 </div>
-                <span className="inline-flex shrink-0 items-center gap-2 rounded-md bg-success/10 px-3 py-2 text-sm font-semibold text-success">
+                <span className="inline-flex w-full shrink-0 items-center justify-center gap-2 rounded-md bg-success/10 px-3 py-2 text-sm font-semibold text-success sm:w-auto">
                   <CheckCircle2 size={16} />
                   Đáp án đúng: {getCorrectLabels(currentQuestion)}
                 </span>
@@ -190,11 +190,12 @@ export function StudyPage() {
               </div>
             </section>
 
-            <div className="flex items-center justify-between gap-3">
-              <Button disabled={safeIndex === 0} onClick={() => goToQuestion(safeIndex - 1)}>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <Button className="w-full sm:w-auto" disabled={safeIndex === 0} onClick={() => goToQuestion(safeIndex - 1)}>
                 <ArrowLeft size={16} /> Câu trước
               </Button>
               <Button
+                className="w-full sm:w-auto"
                 disabled={safeIndex === filteredQuestions.length - 1}
                 onClick={() => goToQuestion(safeIndex + 1)}
                 variant="primary"

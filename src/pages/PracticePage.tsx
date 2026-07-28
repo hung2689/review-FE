@@ -72,7 +72,7 @@ export function PracticePage() {
             <p className="text-sm font-semibold text-muted">Câu {session.currentIndex + 1} / {session.questionIds.length}</p>
             <h1 className="mt-2 whitespace-pre-wrap text-xl font-bold leading-8">{currentQuestion.question}</h1>
           </div>
-          <Button variant="danger" onClick={finishPractice}>
+          <Button className="w-full md:w-auto" variant="danger" onClick={finishPractice}>
             <Flag size={16} /> Kết thúc bài
           </Button>
         </div>
@@ -113,7 +113,7 @@ export function PracticePage() {
             }`}
           >
             {answered.isCorrect ? 'Correct answer' : 'Incorrect answer'}
-            <span className="ml-2 text-ink">Đáp án đúng: {getCorrectLabels(currentQuestion)}</span>
+            <span className="mt-1 block text-ink sm:ml-2 sm:mt-0 sm:inline">Đáp án đúng: {getCorrectLabels(currentQuestion)}</span>
           </div>
         ) : null}
 
@@ -124,11 +124,11 @@ export function PracticePage() {
           </div>
         ) : null}
 
-        <div className="mt-5 flex items-center justify-between">
-          <Button disabled={session.currentIndex === 0} onClick={() => goTo(session.currentIndex - 1)}>
+        <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <Button className="w-full sm:w-auto" disabled={session.currentIndex === 0} onClick={() => goTo(session.currentIndex - 1)}>
             <ArrowLeft size={16} /> Câu trước
           </Button>
-          <Button disabled={session.currentIndex === session.questionIds.length - 1} onClick={() => goTo(session.currentIndex + 1)} variant="primary">
+          <Button className="w-full sm:w-auto" disabled={session.currentIndex === session.questionIds.length - 1} onClick={() => goTo(session.currentIndex + 1)} variant="primary">
             Câu tiếp theo <ArrowRight size={16} />
           </Button>
         </div>
