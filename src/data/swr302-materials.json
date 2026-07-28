@@ -252,18 +252,6 @@
     "needsReview": true
   },
   {
-    "id": "SWR302-M0022",
-    "title": "Which arrangement describes the increasing amount of requirements and development work when",
-    "chapter": "",
-    "topic": "",
-    "originalContent": "Which arrangement describes the increasing amount of requirements and development work when\nimplementing packaged solutions?\n1.configured\n2.integrated\n3.extended\n4.out of the box\nA. 1234\nB.2,134\nC.243,1\nD.4,123\n© Hoang Hoang Buén Source",
-    "sourceImages": [
-      "slide_110.png"
-    ],
-    "confidence": 81,
-    "needsReview": false
-  },
-  {
     "id": "SWR302-M0023",
     "title": "Cau trung binh",
     "chapter": "",
