@@ -1,5 +1,5 @@
-import { Check, Save, Search, X } from 'lucide-react';
-import { useMemo, useState } from 'react';
+import { Check, LockKeyhole, Save, Search, ShieldCheck, X } from 'lucide-react';
+import { type FormEvent, useMemo, useState } from 'react';
 import { Button } from '../components/Button';
 import {
   loadOverrides,
@@ -16,7 +16,112 @@ type ReviewItem =
   | { kind: 'question'; item: QuizQuestion }
   | { kind: 'material'; item: StudyMaterial };
 
+const DATA_REVIEW_PASSWORD = '2689';
+const DATA_REVIEW_AUTH_KEY = 'swr302-data-review-unlocked';
+
+function loadDataReviewAccess() {
+  try {
+    return sessionStorage.getItem(DATA_REVIEW_AUTH_KEY) === 'true';
+  } catch {
+    return false;
+  }
+}
+
+function saveDataReviewAccess(value: boolean) {
+  try {
+    if (value) {
+      sessionStorage.setItem(DATA_REVIEW_AUTH_KEY, 'true');
+    } else {
+      sessionStorage.removeItem(DATA_REVIEW_AUTH_KEY);
+    }
+  } catch {
+    // sessionStorage can be unavailable in private or restricted browser modes.
+  }
+}
+
 export function DataReviewPage() {
+  const [isUnlocked, setIsUnlocked] = useState(loadDataReviewAccess);
+
+  function unlock() {
+    saveDataReviewAccess(true);
+    setIsUnlocked(true);
+  }
+
+  function lock() {
+    saveDataReviewAccess(false);
+    setIsUnlocked(false);
+  }
+
+  return isUnlocked ? <UnlockedDataReviewPage onLock={lock} /> : <DataReviewLockScreen onUnlock={unlock} />;
+}
+
+function DataReviewLockScreen({ onUnlock }: { onUnlock: () => void }) {
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
+  function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (password === DATA_REVIEW_PASSWORD) {
+      setError('');
+      onUnlock();
+      return;
+    }
+
+    setError('Mật khẩu không đúng. Nhập lại 4 số để mở Data review.');
+  }
+
+  return (
+    <div className="mx-auto max-w-xl">
+      <section className="rounded-md border border-line bg-panel p-6 shadow-soft">
+        <div className="flex items-start gap-4">
+          <div className="flex size-12 shrink-0 items-center justify-center rounded-md bg-accent/10 text-accent">
+            <LockKeyhole size={22} />
+          </div>
+          <div className="min-w-0">
+            <p className="text-sm font-semibold uppercase tracking-wide text-accent">Protected area</p>
+            <h1 className="mt-2 text-2xl font-bold">Data review đang khóa</h1>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              Nhập mật khẩu 4 số để mở khu vực kiểm tra OCR và chỉnh đáp án.
+            </p>
+          </div>
+        </div>
+
+        <form className="mt-6 space-y-4" onSubmit={submit}>
+          <label className="block space-y-2">
+            <span className="text-sm font-semibold">Mật khẩu</span>
+            <input
+              aria-describedby={error ? 'data-review-password-error' : undefined}
+              autoComplete="off"
+              autoFocus
+              className="h-12 w-full rounded-md border border-line bg-canvas px-4 text-center text-lg font-bold tracking-[0.45em]"
+              inputMode="numeric"
+              maxLength={4}
+              pattern="[0-9]*"
+              type="password"
+              value={password}
+              onChange={(event) => {
+                setPassword(event.target.value.replace(/\D/g, '').slice(0, 4));
+                setError('');
+              }}
+            />
+          </label>
+
+          {error ? (
+            <p id="data-review-password-error" className="rounded-md border border-danger/30 bg-danger/10 px-3 py-2 text-sm font-semibold text-danger">
+              {error}
+            </p>
+          ) : null}
+
+          <Button className="w-full" disabled={password.length !== 4} type="submit" variant="primary">
+            <ShieldCheck size={16} /> Mở Data review
+          </Button>
+        </form>
+      </section>
+    </div>
+  );
+}
+
+function UnlockedDataReviewPage({ onLock }: { onLock: () => void }) {
   const [query, setQuery] = useState('');
   const [overrides, setOverrides] = useState(loadOverrides);
   const reviewItems = useMemo<ReviewItem[]>(() => {
@@ -48,7 +153,12 @@ export function DataReviewPage() {
           <h1 className="text-2xl font-bold">Data review</h1>
           <p className="mt-1 text-sm text-muted">Kiểm tra OCR, chọn đáp án đúng thủ công và xác nhận nội dung trước khi luyện tập.</p>
         </div>
-        <p className="text-sm font-semibold text-muted">{filtered.length} mục cần kiểm tra</p>
+        <div className="flex flex-wrap items-center gap-3">
+          <p className="text-sm font-semibold text-muted">{filtered.length} mục cần kiểm tra</p>
+          <Button onClick={onLock}>
+            <LockKeyhole size={16} /> Khóa lại
+          </Button>
+        </div>
       </div>
 
       <label className="relative block rounded-md border border-line bg-panel p-3">
