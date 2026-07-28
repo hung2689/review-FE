@@ -1,0 +1,487 @@
+{
+  "scannedImages": 439,
+  "parsedQuestionImages": 400,
+  "ocrFailures": [],
+  "updatedQuestions": 64,
+  "addedQuestions": 0,
+  "removedMaterials": 0,
+  "validQuizQuestions": 356,
+  "questionsWithoutCorrectAnswer": 0,
+  "questionsNeedingReview": 0,
+  "sampleChanges": [
+    {
+      "id": "SWR302-Q0003",
+      "sourceImage": "slide_022.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 264,
+      "newOptionChars": 290,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0005",
+      "sourceImage": "slide_024.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 372,
+      "newOptionChars": 409,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0007",
+      "sourceImage": "slide_026.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 408,
+      "newOptionChars": 522,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0008",
+      "sourceImage": "slide_027.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 423,
+      "newOptionChars": 540,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0009",
+      "sourceImage": "slide_028.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 403,
+      "newOptionChars": 459,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0012",
+      "sourceImage": "slide_031.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 433,
+      "newOptionChars": 541,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0013",
+      "sourceImage": "slide_032.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 398,
+      "newOptionChars": 526,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0014",
+      "sourceImage": "slide_033.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 415,
+      "newOptionChars": 534,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0016",
+      "sourceImage": "slide_035.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 420,
+      "newOptionChars": 495,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0017",
+      "sourceImage": "slide_036.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 422,
+      "newOptionChars": 464,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0018",
+      "sourceImage": "slide_037.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 370,
+      "newOptionChars": 477,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0021",
+      "sourceImage": "slide_040.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 419,
+      "newOptionChars": 486,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0022",
+      "sourceImage": "slide_041.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 401,
+      "newOptionChars": 493,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0023",
+      "sourceImage": "slide_042.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 404,
+      "newOptionChars": 455,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0032",
+      "sourceImage": "slide_052.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 403,
+      "newOptionChars": 463,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0033",
+      "sourceImage": "slide_053.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 293,
+      "newOptionChars": 438,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0039",
+      "sourceImage": "slide_059.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 293,
+      "newOptionChars": 327,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0040",
+      "sourceImage": "slide_060.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 422,
+      "newOptionChars": 532,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0055",
+      "sourceImage": "slide_077.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 387,
+      "newOptionChars": 757,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0057",
+      "sourceImage": "slide_079.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 418,
+      "newOptionChars": 536,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0063",
+      "sourceImage": "slide_085.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 379,
+      "newOptionChars": 480,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0064",
+      "sourceImage": "slide_086.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 285,
+      "newOptionChars": 348,
+      "oldLabels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "SWR302-Q0069",
+      "sourceImage": "slide_091.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 346,
+      "newOptionChars": 388,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0111",
+      "sourceImage": "slide_136.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 99,
+      "newOptionChars": 124,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "SWR302-Q0143",
+      "sourceImage": "slide_169.png",
+      "reason": "source-image-rescan",
+      "oldOptionChars": 250,
+      "newOptionChars": 342,
+      "oldLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "newLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ],
+  "sampleAddedQuestions": []
+}

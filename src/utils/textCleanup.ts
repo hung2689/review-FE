@@ -42,8 +42,17 @@ function normalizeWhitespace(value: string) {
 
 function stripWatermarks(value: string) {
   return value
-    .replace(/\s+Hoang\s+Hoang\b/gi, '')
-    .replace(/\s+Ho\u00e0ng\s+Ho\u00e0ng\b/gi, '')
+    .replace(/\s+©.*$/g, '')
+    .replace(/[\s()[\]{}|©:;.,-]*(?:Hoang|Ho\u00e0ng|Hodng)\s+(?:Hoang|Ho\u00e0ng)\s+(?:Buon|Bu\u00f4n|Bun|Bu\u00e9n|Busn)\s+Source\b/gi, '')
+    .replace(/[\s()[\]{}|©:;.,-]*(?:Hoang|Ho\u00e0ng|Hodng)\s+Hoding\s+(?:Buon|Bu\u00f4n|Bun|Bu\u00e9n|Busn)\s+Source\b/gi, '')
+    .replace(/[\s()[\]{}|©:;.,-]*Hoang\s+Hoang\b/gi, '')
+    .replace(/[\s()[\]{}|©:;.,-]*Ho\u00e0ng\s+Ho\u00e0ng\b/gi, '')
+    .replace(/\s+(?:OR\s+)?RR(?:\s+RRR?)+[A-Z:=-]*\s*$/g, '')
+    .replace(/\s+(?:GOGGLE|BRB|GGG[A-Z]*|GEESE|GEER|EERE|EER|G{2,}|E{2,}|R{2,}|B{2,}|S{4,}|(?:ER){2,}[A-Z]*|(?:RE){2,}[A-Z]*|(?:GE){2,}[A-Z]*|(?:BE){2,}[A-Z]*|RRR(?:\s+RRR)+)\s*$/g, '')
+    .replace(/\s+(?:[EGRBSCIOTLHJNOPSZ]{2,}\s+){1,}[EGRBSCIOTLHJNOPSZ.:-]{2,}\s*$/g, '')
+    .replace(/\s+[EGRBSCIOTLHJNOPSZ]{8,}[EGRBSCIOTLHJNOPSZ.:-]*\s*$/g, '')
+    .replace(/\s+(?:HE|SE|ET|CO|II|J)\s*$/g, '')
+    .replace(/\s*\(\)\s*$/g, '')
     .trim();
 }
 
@@ -55,6 +64,9 @@ function isMostlyOcrNoise(value: string) {
   const letters = text.match(/[A-Za-z]/g) ?? [];
   const lowercase = text.match(/[a-z]/g) ?? [];
   if (letters.length >= 2 && lowercase.length === 0) return true;
+
+  const normalWords = text.match(/[A-Za-z]{3,}/g) ?? [];
+  if (normalWords.filter((word) => /[a-z]/.test(word)).length >= 2) return false;
 
   const noisyChars = text.match(/[ERCGSBONIJLMSUVZ_\-=.,;:~\u00bb\u20ac\u00a7\u2013\u2014\s0]+/gi) ?? [];
   const noisyLength = noisyChars.join('').length;

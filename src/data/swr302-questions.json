@@ -73,12 +73,12 @@
       {
         "id": "SWR302-Q0003-OPT-A",
         "originalLabel": "A",
-        "text": "They gather requirements from other members of the user classes they represent, and reconcile"
+        "text": "They gather requirements from other members of the user classes they represent, and reconcile inconsistencies."
       },
       {
         "id": "SWR302-Q0003-OPT-B",
         "originalLabel": "B",
-        "text": "They serve as the primary interface between members of a single user class and the project's business"
+        "text": "They serve as the primary interface between members of a single user class and the project's business analyst."
       },
       {
         "id": "SWR302-Q0003-OPT-C",
@@ -166,13 +166,13 @@
       {
         "id": "SWR302-Q0005-OPT-D",
         "originalLabel": "D",
-        "text": "Reaching agreement on requirements ensures that both customers and developers have a shared"
+        "text": "Reaching agreement on requirements ensures that both customers and developers have a shared understanding of project objectives."
       }
     ],
     "correctOptionId": "SWR302-Q0005-OPT-B",
     "explanation": "Ký duyệt không ngăn hoàn toàn thay đổi, mà nhằm tạo sự thống nhất giữa các bên.",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following statements about reaching agreement on requirements is accurate? Select two.",
     "sourceImages": [
       "slide_024.png"
     ],
@@ -228,22 +228,22 @@
       {
         "id": "SWR302-Q0007-OPT-A",
         "originalLabel": "A",
-        "text": "Ensure that each requirement is documented in multiple places to increase visibility and reduce the risk of it"
+        "text": "Ensure that each requirement is documented in multiple places to increase visibility and reduce the risk of it being overlooked."
       },
       {
         "id": "SWR302-Q0007-OPT-B",
         "originalLabel": "B",
-        "text": "Use a consistent format for documenting requirements to enhance clarity and understanding among all"
+        "text": "Use a consistent format for documenting requirements to enhance clarity and understanding among all stakeholders."
       },
       {
         "id": "SWR302-Q0007-OPT-C",
         "originalLabel": "C",
-        "text": "Avoid documenting requirements that involve complex logic, as these can be difficult for stakeholders to"
+        "text": "Avoid documenting requirements that involve complex logic, as these can be difficult for stakeholders to understand."
       },
       {
         "id": "SWR302-Q0007-OPT-D",
         "originalLabel": "D",
-        "text": "The software requirements specification (SRS) should be used to formally record the agreed-upon"
+        "text": "The software requirements specification (SRS) should be used to formally record the agreed-upon requirements and ensure all stakeholders have a shared understanding."
       }
     ],
     "correctOptionId": "SWR302-Q0007-OPT-B",
@@ -267,22 +267,22 @@
       {
         "id": "SWR302-Q0008-OPT-A",
         "originalLabel": "A",
-        "text": "The business analyst is solely responsible for managing communication between the customer(s) and the"
+        "text": "The business analyst is solely responsible for managing communication between the customer(s) and the development team."
       },
       {
         "id": "SWR302-Q0008-OPT-B",
         "originalLabel": "B",
-        "text": "The business analyst primarily focuses on eliciting, analyzing, documenting, and validating the needs of the"
+        "text": "The business analyst primarily focuses on eliciting, analyzing, documenting, and validating the needs of the project stakeholders."
       },
       {
         "id": "SWR302-Q0008-OPT-C",
         "originalLabel": "C",
-        "text": "In agile projects, the business analyst often acts as the project manager, handling both internal and external"
+        "text": "In agile projects, the business analyst often acts as the project manager, handling both internal and external project tasks."
       },
       {
         "id": "SWR302-Q0008-OPT-D",
         "originalLabel": "D",
-        "text": "The business analyst plays a central role in collecting and disseminating product information, while the"
+        "text": "The business analyst plays a central role in collecting and disseminating product information, while the project manager focuses on communicating project information."
       }
     ],
     "correctOptionId": "SWR302-Q0008-OPT-B",
@@ -306,12 +306,12 @@
       {
         "id": "SWR302-Q0009-OPT-A",
         "originalLabel": "A",
-        "text": "Defining the product vision and project scope early in the project to ensure all stakeholders have a shared"
+        "text": "Defining the product vision and project scope early in the project to ensure all stakeholders have a shared understanding."
       },
       {
         "id": "SWR302-Q0009-OPT-B",
         "originalLabel": "B",
-        "text": "Focusing exclusively on nonfunctional requirements during initial elicitation while ignoring functional"
+        "text": "Focusing exclusively on nonfunctional requirements during initial elicitation while ignoring functional requirements to save time."
       },
       {
         "id": "SWR302-Q0009-OPT-C",
@@ -321,7 +321,7 @@
       {
         "id": "SWR302-Q0009-OPT-D",
         "originalLabel": "D",
-        "text": "Avoiding the use of prototypes in the early stages of requirements elicitation to prevent biasing"
+        "text": "Avoiding the use of prototypes in the early stages of requirements elicitation to prevent biasing stakeholders."
       }
     ],
     "correctOptionId": "SWR302-Q0009-OPT-A",
@@ -423,12 +423,12 @@
       {
         "id": "SWR302-Q0012-OPT-A",
         "originalLabel": "A",
-        "text": "The process of requirements development is strictly linear, moving from elicitation to validation without any"
+        "text": "The process of requirements development is strictly linear, moving from elicitation to validation without any need for revisiting previous stages."
       },
       {
         "id": "SWR302-Q0012-OPT-B",
         "originalLabel": "B",
-        "text": "Elicitation, analysis, specification, and validation are iterative activities that may require revisiting earlier"
+        "text": "Elicitation, analysis, specification, and validation are iterative activities that may require revisiting earlier stages to ensure accuracy and completeness."
       },
       {
         "id": "SWR302-Q0012-OPT-C",
@@ -438,7 +438,7 @@
       {
         "id": "SWR302-Q0012-OPT-D",
         "originalLabel": "D",
-        "text": "The framework allows for flexibility, with steps often revisited throughout the project to refine and correct"
+        "text": "The framework allows for flexibility, with steps often revisited throughout the project to refine and correct requirements as needed. es"
       }
     ],
     "correctOptionId": "SWR302-Q0012-OPT-B",
@@ -462,7 +462,7 @@
       {
         "id": "SWR302-Q0013-OPT-A",
         "originalLabel": "A",
-        "text": "A context diagram visually illustrates the boundary between the system being developed and external"
+        "text": "A context diagram visually illustrates the boundary between the system being developed and external entities that interact with it."
       },
       {
         "id": "SWR302-Q0013-OPT-B",
@@ -472,12 +472,12 @@
       {
         "id": "SWR302-Q0013-OPT-C",
         "originalLabel": "C",
-        "text": "The primary purpose of a context diagram is to depict the interactions between the system and external"
+        "text": "The primary purpose of a context diagram is to depict the interactions between the system and external entities without detailing the internal workings of the system."
       },
       {
         "id": "SWR302-Q0013-OPT-D",
         "originalLabel": "D",
-        "text": "Context diagrams are typically used to represent the relationship between user interfaces and system"
+        "text": "Context diagrams are typically used to represent the relationship between user interfaces and system components within the boundary."
       }
     ],
     "correctOptionId": "SWR302-Q0013-OPT-A",
@@ -501,22 +501,22 @@
       {
         "id": "SWR302-Q0014-OPT-A",
         "originalLabel": "A",
-        "text": "A persona is a real user from the target audience, used to validate requirements and ensure they meet"
+        "text": "A persona is a real user from the target audience, used to validate requirements and ensure they meet actual user needs."
       },
       {
         "id": "SWR302-Q0014-OPT-B",
         "originalLabel": "B",
-        "text": "Personas are hypothetical, generic users representing a group with similar characteristics, used to"
+        "text": "Personas are hypothetical, generic users representing a group with similar characteristics, used to understand requirements and design user experiences."
       },
       {
         "id": "SWR302-Q0014-OPT-C",
         "originalLabel": "C",
-        "text": "Creating a persona helps bring user classes to life and aids in visualizing how different types of users will"
+        "text": "Creating a persona helps bring user classes to life and aids in visualizing how different types of users will interact with the system."
       },
       {
         "id": "SWR302-Q0014-OPT-D",
         "originalLabel": "D",
-        "text": "Personas are only useful during the testing phase to ensure that the application functions as expected for"
+        "text": "Personas are only useful during the testing phase to ensure that the application functions as expected for diverse user groups."
       }
     ],
     "correctOptionId": "SWR302-Q0014-OPT-B",
@@ -579,7 +579,7 @@
       {
         "id": "SWR302-Q0016-OPT-A",
         "originalLabel": "A",
-        "text": "A business rule is a statement that defines or constrains some aspect of the business to control or influence"
+        "text": "A business rule is a statement that defines or constrains some aspect of the business to control or influence its behavior."
       },
       {
         "id": "SWR302-Q0016-OPT-B",
@@ -589,12 +589,12 @@
       {
         "id": "SWR302-Q0016-OPT-C",
         "originalLabel": "C",
-        "text": "Classifying business rules helps in understanding how they might be applied in a software application, such"
+        "text": "Classifying business rules helps in understanding how they might be applied in a software application, such as using constraints to enforce certain conditions."
       },
       {
         "id": "SWR302-Q0016-OPT-D",
         "originalLabel": "D",
-        "text": "A business rule is the same as a system requirement, focusing solely on the technical implementation"
+        "text": "A business rule is the same as a system requirement, focusing solely on the technical implementation details."
       }
     ],
     "correctOptionId": "SWR302-Q0016-OPT-A",
@@ -618,7 +618,7 @@
       {
         "id": "SWR302-Q0017-OPT-A",
         "originalLabel": "A",
-        "text": "A use case describes a sequence of interactions between a system and an external actor that results in an"
+        "text": "A use case describes a sequence of interactions between a system and an external actor that results in an outcome of value to the actor."
       },
       {
         "id": "SWR302-Q0017-OPT-B",
@@ -628,7 +628,7 @@
       {
         "id": "SWR302-Q0017-OPT-C",
         "originalLabel": "C",
-        "text": "Actors in a use case can include both human users and other systems that interact with the system being"
+        "text": "Actors in a use case can include both human users and other systems that interact with the system being developed."
       },
       {
         "id": "SWR302-Q0017-OPT-D",
@@ -639,7 +639,7 @@
     "correctOptionId": "SWR302-Q0017-OPT-A",
     "explanation": "Actor không chỉ là con người mà còn có thể là hệ thống bên ngoài.",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following statements accurately describe the use case approach? Select two.",
     "sourceImages": [
       "slide_036.png"
     ],
@@ -657,7 +657,7 @@
       {
         "id": "SWR302-Q0018-OPT-A",
         "originalLabel": "A",
-        "text": "Each requirement should be complete, meaning it contains all the information necessary for the reader to"
+        "text": "Each requirement should be complete, meaning it contains all the information necessary for the reader to understand it and for developers to implement it correctly."
       },
       {
         "id": "SWR302-Q0018-OPT-B",
@@ -667,7 +667,7 @@
       {
         "id": "SWR302-Q0018-OPT-C",
         "originalLabel": "C",
-        "text": "Requirements should be prioritized based on their importance to achieving the desired business value, and"
+        "text": "Requirements should be prioritized based on their importance to achieving the desired business value, and should be assigned an implementation priority."
       },
       {
         "id": "SWR302-Q0018-OPT-D",
@@ -778,12 +778,12 @@
       {
         "id": "SWR302-Q0021-OPT-B",
         "originalLabel": "B",
-        "text": "More detail should be included when the work is being done for an external client or when system testing"
+        "text": "More detail should be included when the work is being done for an external client or when system testing will be based on the requirements."
       },
       {
         "id": "SWR302-Q0021-OPT-C",
         "originalLabel": "C",
-        "text": "Less detail can be included if the work is being done internally for your company and developers have"
+        "text": "Less detail can be included if the work is being done internally for your company and developers have considerable domain experience."
       },
       {
         "id": "SWR302-Q0021-OPT-D",
@@ -812,7 +812,7 @@
       {
         "id": "SWR302-Q0022-OPT-A",
         "originalLabel": "A",
-        "text": "Business process flows can be represented with high-level data flow diagrams or Swimlane diagrams that"
+        "text": "Business process flows can be represented with high-level data flow diagrams or Swimlane diagrams that show roles and responsibilities in the process."
       },
       {
         "id": "SWR302-Q0022-OPT-B",
@@ -822,7 +822,7 @@
       {
         "id": "SWR302-Q0022-OPT-C",
         "originalLabel": "C",
-        "text": "Complex logic can be effectively represented using decision trees or decision tables, which show possible"
+        "text": "Complex logic can be effectively represented using decision trees or decision tables, which show possible outcomes or unique functional requirements."
       },
       {
         "id": "SWR302-Q0022-OPT-D",
@@ -856,12 +856,12 @@
       {
         "id": "SWR302-Q0023-OPT-B",
         "originalLabel": "B",
-        "text": "By identifying keywords such as nouns, verbs, and conditional statements that can be mapped to"
+        "text": "By identifying keywords such as nouns, verbs, and conditional statements that can be mapped to corresponding analysis model components."
       },
       {
         "id": "SWR302-Q0023-OPT-C",
         "originalLabel": "C",
-        "text": "By using a predetermined set of model components without considering the specific word choices of the"
+        "text": "By using a predetermined set of model components without considering the specific word choices of the customer."
       },
       {
         "id": "SWR302-Q0023-OPT-D",
@@ -1202,12 +1202,12 @@
       {
         "id": "SWR302-Q0032-OPT-A",
         "originalLabel": "A",
-        "text": "Modeling the application environment to understand the system's boundaries and interactions with external"
+        "text": "Modeling the application environment to understand the system's boundaries and interactions with external entities."
       },
       {
         "id": "SWR302-Q0032-OPT-B",
         "originalLabel": "B",
-        "text": "Prioritizing the requirements based solely on the preferences of the development team without considering"
+        "text": "Prioritizing the requirements based solely on the preferences of the development team without considering business goals or customer needs."
       },
       {
         "id": "SWR302-Q0032-OPT-C",
@@ -1217,7 +1217,7 @@
       {
         "id": "SWR302-Q0032-OPT-D",
         "originalLabel": "D",
-        "text": "Analyzing data flows to ensure that all interactions between the system and external entities are understood"
+        "text": "Analyzing data flows to ensure that all interactions between the system and external entities are understood and documented."
       }
     ],
     "correctOptionId": "SWR302-Q0032-OPT-A",
@@ -1242,7 +1242,7 @@
       {
         "id": "SWR302-Q0033-OPT-A",
         "originalLabel": "A",
-        "text": "“Common knowledge” from the organization, often collected from individuals who have worked with the"
+        "text": "\"Common knowledge\" from the organization, often collected from individuals who have worked with the business for a long time and know the details of how it operates."
       },
       {
         "id": "SWR302-Q0033-OPT-B",
@@ -1252,7 +1252,7 @@
       {
         "id": "SWR302-Q0033-OPT-C",
         "originalLabel": "C",
-        "text": "Analysis of existing documentation, including requirements specifications from earlier projects, regulations,"
+        "text": "Analysis of existing documentation, including requirements specifications from earlier projects, regulations, industry standards, corporate policy documents, contracts, and business plans."
       },
       {
         "id": "SWR302-Q0033-OPT-D",
@@ -1484,7 +1484,7 @@
       {
         "id": "SWR302-Q0039-OPT-A",
         "originalLabel": "A",
-        "text": "It allows us to refer to specific requirements in a change request, modification history, cross-reference, or"
+        "text": "It allows us to refer to specific requirements in a change request, modification history, cross-reference, or requirements traceability matrix."
       },
       {
         "id": "SWR302-Q0039-OPT-B",
@@ -1505,7 +1505,7 @@
     "correctOptionId": "SWR302-Q0039-OPT-A",
     "explanation": "Đánh số hoặc gắn nhãn giúp quản lý, truy vết và trao đổi yêu cầu hiệu quả hơn.",
     "chapter": "",
-    "topic": "",
+    "topic": "Why do we have to label the requirements in a software requirements specification (SRS)? (Choose 3 correct answers)",
     "sourceImages": [
       "slide_059.png"
     ],
@@ -1529,17 +1529,17 @@
       {
         "id": "SWR302-Q0040-OPT-B",
         "originalLabel": "B",
-        "text": "Create a data dictionary that defines the composition, meaning, data type, and allowed values for all data"
+        "text": "Create a data dictionary that defines the composition, meaning, data type, and allowed values for all data elements the system will handle."
       },
       {
         "id": "SWR302-Q0040-OPT-C",
         "originalLabel": "C",
-        "text": "Document any reports that the application will generate, focusing on their logical descriptions and deferring"
+        "text": "Document any reports that the application will generate, focusing on their logical descriptions and deferring detailed layouts to the design stage."
       },
       {
         "id": "SWR302-Q0040-OPT-D",
         "originalLabel": "D",
-        "text": "Describe how data will be acquired, maintained, and protected, including policies for data retention,"
+        "text": "Describe how data will be acquired, maintained, and protected, including policies for data retention, disposal, and ensuring data integrity."
       }
     ],
     "correctOptionId": "SWR302-Q0040-OPT-B",
@@ -1599,7 +1599,7 @@
   },
   {
     "id": "SWR302-Q0042",
-    "question": "in the data dictionary represent the following types of data elements: (choose 3 correct answers)",
+    "question": "Entries in the data dictionary represent the following types of data elements: (choose 3 correct answers)",
     "options": [
       {
         "id": "SWR302-Q0042-OPT-A",
@@ -1625,7 +1625,7 @@
     "correctOptionId": "SWR302-Q0042-OPT-A",
     "explanation": "Data Dictionary thường mô tả dữ liệu nguyên thủy, cấu trúc dữ liệu và các nhóm dữ liệu lặp.",
     "chapter": "",
-    "topic": "",
+    "topic": "Entries in the data dictionary represent the following types of data elements: (choose 3 correct answers)",
     "sourceImages": [
       "slide_062.png",
       "slide_256.png"
@@ -2111,7 +2111,7 @@
       {
         "id": "SWR302-Q0055-OPT-A",
         "originalLabel": "A",
-        "text": "Use case diagrams are both behavior diagrams because they describe the behavior of the system. They"
+        "text": "Use case diagrams are both behavior diagrams because they describe the behavior of the system. They are also structure diagrams, serving as a special case of class diagrams where classifiers are restricted to be either actors or use cases related to each other with associations."
       },
       {
         "id": "SWR302-Q0055-OPT-B",
@@ -2121,18 +2121,18 @@
       {
         "id": "SWR302-Q0055-OPT-C",
         "originalLabel": "C",
-        "text": "Use case diagrams are usually referred to as behavior diagrams used to describe a set of actions (use"
+        "text": "Use case diagrams are usually referred to as behavior diagrams used to describe a set of actions (use cases) that some system or systems (subject) should or can perform in collaboration with one or more external users of the system (actors)."
       },
       {
         "id": "SWR302-Q0055-OPT-D",
         "originalLabel": "D",
-        "text": "A use case describes a sequence of interactions between a system and an external actor that results in the"
+        "text": "A use case describes a sequence of interactions between a system and an external actor that results in the actor being able to achieve some outcome of value"
       }
     ],
     "correctOptionId": "SWR302-Q0055-OPT-B",
     "explanation": "Use Case Diagram mô tả tác nhân và các ca sử dụng, không dùng để thiết kế giao diện GUI.",
     "chapter": "",
-    "topic": "",
+    "topic": "What is not the purpose of a Use Case Diagram?",
     "sourceImages": [
       "slide_077.png",
       "slide_265.png"
@@ -2188,12 +2188,12 @@
   },
   {
     "id": "SWR302-Q0057",
-    "question": "when adapting requirements from one project to another?",
+    "question": "Which of the following is NOT considered a dimension of requirements reuse when adapting requirements from one project to another?",
     "options": [
       {
         "id": "SWR302-Q0057-OPT-A",
         "originalLabel": "A",
-        "text": "The extent of reuse, including whether individual requirement statements or sets of requirements with their"
+        "text": "The extent of reuse, including whether individual requirement statements or sets of requirements with their associated elements are reused."
       },
       {
         "id": "SWR302-Q0057-OPT-B",
@@ -2203,12 +2203,12 @@
       {
         "id": "SWR302-Q0057-OPT-C",
         "originalLabel": "C",
-        "text": "The extent of modification, which considers the degree to which reused requirements must be altered to fit"
+        "text": "The extent of modification, which considers the degree to which reused requirements must be altered to fit the new project's context."
       },
       {
         "id": "SWR302-Q0057-OPT-D",
         "originalLabel": "D",
-        "text": "The reuse mechanism, which involves how the requirement is reused, such as copying from a library of"
+        "text": "The reuse mechanism, which involves how the requirement is reused, such as copying from a library of reusable requirements or referring to the original source."
       }
     ],
     "correctOptionId": "SWR302-Q0057-OPT-B",
@@ -2443,7 +2443,7 @@
   },
   {
     "id": "SWR302-Q0063",
-    "question": "ae Which of the following is NOT about Agile project?",
+    "question": "Which of the following is NOT about Agile project?",
     "options": [
       {
         "id": "SWR302-Q0063-OPT-A",
@@ -2453,23 +2453,23 @@
       {
         "id": "SWR302-Q0063-OPT-B",
         "originalLabel": "B",
-        "text": "It encourages creating the minimum amount of documentation needed to accurately guide the developers"
+        "text": "It encourages creating the minimum amount of documentation needed to accurately guide the developers and testers."
       },
       {
         "id": "SWR302-Q0063-OPT-C",
         "originalLabel": "C",
-        "text": "BAs or other people responsible for requirements will develop the necessary precision through"
+        "text": "BAs or other people responsible for requirements will develop the necessary precision through conversations and documentation when it is needed."
       },
       {
         "id": "SWR302-Q0063-OPT-D",
         "originalLabel": "D",
-        "text": "The collaboration of customers with developers on agile projects generally means that requirements"
+        "text": "The collaboration of customers with developers on agile projects generally means that requirements can be documented in less detail."
       }
     ],
     "correctOptionId": "SWR302-Q0063-OPT-A",
     "explanation": "Agile nhấn mạnh sự cộng tác thường xuyên giữa khách hàng và đội phát triển.",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following is NOT about Agile project?",
     "sourceImages": [
       "slide_085.png"
     ],
@@ -2491,18 +2491,18 @@
       {
         "id": "SWR302-Q0064-OPT-B",
         "originalLabel": "B",
-        "text": "It's harder to get developer input on requirements and to pass along user feedback on delivered software to"
+        "text": "It's harder to get developer input on requirements and to pass along user feedback on delivered software to developers."
       },
       {
         "id": "SWR302-Q0064-OPT-C",
         "originalLabel": "C",
-        "text": "A formal contractual definition of requirements is necessary, which can lead to contention if differences of"
+        "text": "A formal contractual definition of requirements is necessary, which can lead to contention if differences of interpretation are discovered late in the project."
       }
     ],
     "correctOptionId": "SWR302-Q0064-OPT-A",
     "explanation": "Thuê ngoài được dùng khi năng lực phát triển không có hoặc không đủ trong nội bộ.",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following is NOT about outsourced projects?",
     "sourceImages": [
       "slide_086.png",
       "slide_286.png"
@@ -2693,12 +2693,12 @@
       {
         "id": "SWR302-Q0069-OPT-C",
         "originalLabel": "C",
-        "text": "Accepting change helps to meet evolving business objectives and priorities and to accommodate the"
+        "text": "Accepting change helps to meet evolving business objectives and priorities and to accommodate the limitations of human plans and foresight."
       },
       {
         "id": "SWR302-Q0069-OPT-D",
         "originalLabel": "D",
-        "text": "Agile methods vary as to their philosophy on this point; there is no single “correct” approach."
+        "text": "Agile methods vary as to their philosophy on this point; there is no single \"correct\" approach."
       }
     ],
     "correctOptionId": "SWR302-Q0069-OPT-D",
@@ -3622,7 +3622,7 @@
   },
   {
     "id": "SWR302-Q0093",
-    "question": "pee aS a al Js rd A designated representative of a specific user class, who supplies the user requirements for the group that he or she represents, is a:",
+    "question": "A designated representative of a specific user class, who supplies the user requirements for the group that he or she represents, is a:",
     "options": [
       {
         "id": "SWR302-Q0093-OPT-A",
@@ -3648,7 +3648,7 @@
     "correctOptionId": "SWR302-Q0093-OPT-B",
     "explanation": "Product champion đại diện cho một nhóm người dùng và truyền đạt nhu cầu của họ cho dự án.",
     "chapter": "",
-    "topic": "",
+    "topic": "A designated representative of a specific user class, who supplies the user requirements for the group that he or she represents, is a:",
     "sourceImages": [
       "slide_118.png"
     ],
@@ -3856,7 +3856,7 @@
   },
   {
     "id": "SWR302-Q0099",
-    "question": "when talking about the essential aspects of an agile approach to requirements.",
+    "question": "Choose the incorrect answer when talking about the essential aspects of an agile approach to requirements.",
     "options": [
       {
         "id": "SWR302-Q0099-OPT-A",
@@ -3887,7 +3887,7 @@
     "correctOptionId": "SWR302-Q0099-OPT-B",
     "explanation": "Agile chấp nhận và thích nghi với thay đổi thay vì kỳ vọng yêu cầu luôn ổn định.",
     "chapter": "",
-    "topic": "",
+    "topic": "Choose the incorrect answer when talking about the essential aspects of an agile approach to requirements.",
     "sourceImages": [
       "slide_124.png"
     ],
@@ -3899,7 +3899,7 @@
   },
   {
     "id": "SWR302-Q0100",
-    "question": "which activity are customer needs processed and related to software requirements?",
+    "question": "During which activity are customer needs processed and related to software requirements?",
     "options": [
       {
         "id": "SWR302-Q0100-OPT-A",
@@ -4334,7 +4334,7 @@
     "correctOptionId": "SWR302-Q0111-OPT-A",
     "explanation": "Đây là phương pháp phân loại mức độ ưu tiên yêu cầu trong Agile và BA.",
     "chapter": "",
-    "topic": "",
+    "topic": "The four capitalized letters in the MoSCoW prioritization technique stand for:",
     "sourceImages": [
       "slide_136.png"
     ],
@@ -4916,7 +4916,7 @@
   },
   {
     "id": "SWR302-Q0127",
-    "question": "mae What is Risk assessment?",
+    "question": "What is Risk assessment?",
     "options": [
       {
         "id": "SWR302-Q0127-OPT-A",
@@ -4926,7 +4926,7 @@
       {
         "id": "SWR302-Q0127-OPT-B",
         "originalLabel": "B",
-        "text": "It is one way to deal with a risk: don’t do the risky thing."
+        "text": "It is one way to deal with a risk: don?t do the risky thing."
       },
       {
         "id": "SWR302-Q0127-OPT-C",
@@ -4936,13 +4936,13 @@
       {
         "id": "SWR302-Q0127-OPT-D",
         "originalLabel": "D",
-        "text": "It activities to manage the top-priority risks you identified."
+        "text": "It includes activities to manage the top-priority risks you identified."
       }
     ],
     "correctOptionId": "SWR302-Q0127-OPT-A",
     "explanation": "Risk Assessment tập trung vào việc nhận diện và đánh giá các rủi ro có thể ảnh hưởng đến dự án.",
     "chapter": "",
-    "topic": "",
+    "topic": "What is Risk assessment?",
     "sourceImages": [
       "slide_153.png"
     ],
@@ -5551,7 +5551,7 @@
       {
         "id": "SWR302-Q0143-OPT-B",
         "originalLabel": "B",
-        "text": "To represent a high-level user need or business requirement that can be broken down into smaller, more"
+        "text": "To represent a high-level user need or business requirement that can be broken down into smaller, more manageable user stories"
       },
       {
         "id": "SWR302-Q0143-OPT-C",
@@ -5561,7 +5561,7 @@
       {
         "id": "SWR302-Q0143-OPT-D",
         "originalLabel": "D",
-        "text": "To prioritize project deliverables"
+        "text": "To prioritize project deliverables -...-——...........------------------———————————————————————————————"
       }
     ],
     "correctOptionId": "SWR302-Q0143-OPT-B",
@@ -5999,7 +5999,7 @@
   },
   {
     "id": "SWR302-Q0155",
-    "question": "why is it important to establish a mechanism for managing changes to requirements?",
+    "question": "In a requirements development process, why is it important to establish a mechanism for managing changes to requirements?",
     "options": [
       {
         "id": "SWR302-Q0155-OPT-A",
@@ -6048,7 +6048,7 @@
       {
         "id": "SWR302-Q0156-OPT-B",
         "originalLabel": "B",
-        "text": "Scope Creep arises from customer-driven changes, while Gold Plating results from the project team adding"
+        "text": "Scope Creep arises from customer-driven changes, while Gold Plating results from the project team adding unnecessary features."
       },
       {
         "id": "SWR302-Q0156-OPT-C",
@@ -6101,12 +6101,12 @@
       {
         "id": "SWR302-Q0157-OPT-D",
         "originalLabel": "D",
-        "text": "A user is an actual person (or system) using the product, while an actor is an abstraction that represents"
+        "text": "A user is an actual person (or system) using the product, while an actor is an abstraction that represents the role the user plays in a given use case"
       },
       {
         "id": "SWR302-Q0157-OPT-E",
         "originalLabel": "E",
-        "text": "Users are always individuals, while actors are always systems."
+        "text": "Users are always individuals, while actors are always systems. EL"
       }
     ],
     "correctOptionId": "SWR302-Q0157-OPT-D",
@@ -6134,7 +6134,7 @@
       {
         "id": "SWR302-Q0158-OPT-B",
         "originalLabel": "B",
-        "text": "Product vision describes the ultimate product, while project scope identifies the portion of that vision to be"
+        "text": "Product vision describes the ultimate product, while project scope identifies the portion of that vision to be addressed by the current project"
       },
       {
         "id": "SWR302-Q0158-OPT-C",
@@ -6172,17 +6172,17 @@
       {
         "id": "SWR302-Q0159-OPT-B",
         "originalLabel": "B",
-        "text": "You consider how much modification will be needed to make existing requirements reusable on the new"
+        "text": "You consider how much modification will be needed to make existing requirements reusable on the new project."
       },
       {
         "id": "SWR302-Q0159-OPT-C",
         "originalLabel": "C",
-        "text": "It is simply a copy-and-paste of a piece of requirements information, either from another specification or"
+        "text": "It is simply a copy-and-paste of a piece of requirements information, either from another specification or from a library of reusable requirements."
       },
       {
         "id": "SWR302-Q0159-OPT-D",
         "originalLabel": "D",
-        "text": "It is specific functional requirements within use cases, performance requirements, usability requirements,"
+        "text": "It is specific functional requirements within use cases, performance requirements, usability requirements, business rules."
       }
     ],
     "correctOptionId": "SWR302-Q0159-OPT-A",
@@ -6324,7 +6324,7 @@
       {
         "id": "SWR302-Q0163-OPT-B",
         "originalLabel": "B",
-        "text": "To represent the possible states of an object and the transitions between these states based on various"
+        "text": "To represent the possible states of an object and the transitions between these states based on various events or conditions"
       },
       {
         "id": "SWR302-Q0163-OPT-C",
@@ -6553,18 +6553,18 @@
       {
         "id": "SWR302-Q0169-OPT-B",
         "originalLabel": "B",
-        "text": "A specification of features to be implemented, descriptions of how the system should behave or"
+        "text": "A specification of features to be implemented, descriptions of how the system should behave or descriptions"
       },
       {
         "id": "SWR302-Q0169-OPT-C",
         "originalLabel": "C",
-        "text": "A set of requirements that stakeholders have agreed to, often defining the contents of a specific planned"
+        "text": "A set of requirements that stakeholders have agreed to, often defining the contents of a specific planned release or development iteration ES SS SS, DDD tS DSSS AS) SDSS Rh DS"
       }
     ],
     "correctOptionId": "SWR302-Q0169-OPT-C",
     "explanation": "Baseline là mốc chuẩn để quản lý thay đổi và theo dõi tiến độ dự án.",
     "chapter": "",
-    "topic": "",
+    "topic": "What is a requirements baseline?",
     "sourceImages": [
       "slide_196.png"
     ],
@@ -6619,17 +6619,17 @@
       {
         "id": "SWR302-Q0171-OPT-A",
         "originalLabel": "A",
-        "text": "A throwaway prototype is built with production-quality code, while an evolutionary prototype is discarded"
+        "text": "A throwaway prototype is built with production-quality code, while an evolutionary prototype is discarded after use."
       },
       {
         "id": "SWR302-Q0171-OPT-B",
         "originalLabel": "B",
-        "text": "An evolutionary prototype is designed to be gradually refined into the final product, while a throwaway"
+        "text": "An evolutionary prototype is designed to be gradually refined into the final product, while a throwaway prototype is created to answer specific questions and then discarded."
       },
       {
         "id": "SWR302-Q0171-OPT-C",
         "originalLabel": "C",
-        "text": "A throwaway prototype provides a solid architectural foundation for the final product, while an evolutionary"
+        "text": "A throwaway prototype provides a solid architectural foundation for the final product, while an evolutionary prototype is typically used to test user interface designs."
       },
       {
         "id": "SWR302-Q0171-OPT-D",
@@ -6662,7 +6662,7 @@
       {
         "id": "SWR302-Q0172-OPT-B",
         "originalLabel": "B",
-        "text": "Validation ensures the product satisfies customer needs, while verification ensures the product meets its"
+        "text": "Validation ensures the product satisfies customer needs, while verification ensures the product meets its specifications."
       },
       {
         "id": "SWR302-Q0172-OPT-C",
@@ -6700,7 +6700,7 @@
       {
         "id": "SWR302-Q0173-OPT-B",
         "originalLabel": "B",
-        "text": "To visually depict the steps involved in a business process or the operations of a proposed software system,"
+        "text": "To visually depict the steps involved in a business process or the operations of a proposed software system, subdivided into lanes that represent different systems or actors."
       },
       {
         "id": "SWR302-Q0173-OPT-C",
@@ -6777,7 +6777,7 @@
       {
         "id": "SWR302-Q0175-OPT-B",
         "originalLabel": "B",
-        "text": "Conduct a formal peer review meeting where participants compare their understanding of each requirement"
+        "text": "Conduct a formal peer review meeting where participants compare their understanding of each requirement and discuss any ambiguities."
       },
       {
         "id": "SWR302-Q0175-OPT-C",
@@ -6848,22 +6848,22 @@
       {
         "id": "SWR302-Q0177-OPT-A",
         "originalLabel": "A",
-        "text": "The use case is a business artifact which defines the software requirement or an application feature."
+        "text": "The use case is a business artifact which defines the software requirement or an application feature. Whereas use story is a test artifact which defines the steps to validate and verify that the software requirement or application feature exists"
       },
       {
         "id": "SWR302-Q0177-OPT-B",
         "originalLabel": "B",
-        "text": "The user story contains complete and lengthy descriptions. A use case contains simplified and short"
+        "text": "The user story contains complete and lengthy descriptions. A use case contains simplified and short descriptions"
       },
       {
         "id": "SWR302-Q0177-OPT-C",
         "originalLabel": "C",
-        "text": "The user story is a business artifact which defines the software requirement or an application feature."
+        "text": "The user story is a business artifact which defines the software requirement or an application feature. Whereas use case is a test artifact which defines the steps to validate and verify that the software requirement or application feature exists"
       },
       {
         "id": "SWR302-Q0177-OPT-D",
         "originalLabel": "D",
-        "text": "The user story contains simplified and short descriptions. A use case contains complete and lengthy"
+        "text": "The user story contains simplified and short descriptions. A use case contains complete and lengthy descriptions"
       }
     ],
     "correctOptionId": "SWR302-Q0177-OPT-D",
@@ -6887,12 +6887,12 @@
       {
         "id": "SWR302-Q0178-OPT-A",
         "originalLabel": "A",
-        "text": "Business rules are the origin of several types of software requirements, but they are not software"
+        "text": "Business rules are the origin of several types of software requirements, but they are not software requirements themselves."
       },
       {
         "id": "SWR302-Q0178-OPT-B",
         "originalLabel": "B",
-        "text": "Nonfunctional requirements describe the system's performance characteristics rather than its specific"
+        "text": "Nonfunctional requirements describe the system's performance characteristics rather than its specific behaviors"
       },
       {
         "id": "SWR302-Q0178-OPT-C",
@@ -6935,7 +6935,7 @@
       {
         "id": "SWR302-Q0179-OPT-C",
         "originalLabel": "C",
-        "text": "Requirements are a specification of what should be implemented. They are descriptions of how the system"
+        "text": "Requirements are a specification of what should be implemented. They are descriptions of how the system should behave, or a system property or attribute. They may be a constraint on the development process of the system."
       },
       {
         "id": "SWR302-Q0179-OPT-D",
@@ -7007,7 +7007,7 @@
       {
         "id": "SWR302-Q0181-OPT-B",
         "originalLabel": "B",
-        "text": "Performance requirements include the responsiveness of the system to user inquiries, such as the number"
+        "text": "Performance requirements include the responsiveness of the system to user inquiries, such as the number of seconds to display a webpage."
       },
       {
         "id": "SWR302-Q0181-OPT-C",
@@ -7017,13 +7017,13 @@
       {
         "id": "SWR302-Q0181-OPT-D",
         "originalLabel": "D",
-        "text": "Performance requirements are unrelated to the external factors like network connections and hardware"
+        "text": "Performance requirements are unrelated to the external factors like network connections and hardware components."
       }
     ],
     "correctOptionId": "SWR302-Q0181-OPT-B",
     "explanation": "Hiệu năng thường được đo bằng thời gian phản hồi, thông lượng và khả năng xử lý tải của hệ thống.",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following statements best describes a key aspect of performance requirements for a software system?",
     "sourceImages": [
       "slide_209.png"
     ],
@@ -7094,13 +7094,13 @@
       {
         "id": "SWR302-Q0183-OPT-D",
         "originalLabel": "D",
-        "text": "It is a spreadsheet that maps requirements to other project artifacts such as design documents, test"
+        "text": "It is a spreadsheet that maps requirements to other project artifacts such as design documents, test cases, and source code"
       }
     ],
     "correctOptionId": "SWR302-Q0183-OPT-D",
     "explanation": "RTM giúp truy vết yêu cầu xuyên suốt quá trình phát triển, kiểm thử và triển khai hệ thống.",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following best describes the structure of the Requirements Traceability Matrix (RTM)?",
     "sourceImages": [
       "slide_211.png"
     ],
@@ -7117,22 +7117,22 @@
       {
         "id": "SWR302-Q0184-OPT-A",
         "originalLabel": "A",
-        "text": "Completeness, meaning it is acceptable if some necessary information is absent as long as the core"
+        "text": "Completeness, meaning it is acceptable if some necessary information is absent as long as the core requirements are documented."
       },
       {
         "id": "SWR302-Q0184-OPT-B",
         "originalLabel": "B",
-        "text": "Modifiability, which allows changes to be made without maintaining a history of changes or considering"
+        "text": "Modifiability, which allows changes to be made without maintaining a history of changes or considering dependencies among requirements."
       },
       {
         "id": "SWR302-Q0184-OPT-C",
         "originalLabel": "C",
-        "text": "Consistency, ensuring that requirements do not conflict with other requirements or higher-level business,"
+        "text": "Consistency, ensuring that requirements do not conflict with other requirements or higher-level business, user, or system requirements."
       },
       {
         "id": "SWR302-Q0184-OPT-D",
         "originalLabel": "D",
-        "text": "Traceability, where requirements should be loosely linked and not necessarily connected to their origin or to"
+        "text": "Traceability, where requirements should be loosely linked and not necessarily connected to their origin or to derived elements."
       }
     ],
     "correctOptionId": "SWR302-Q0184-OPT-C",
@@ -7199,7 +7199,7 @@
       {
         "id": "SWR302-Q0186-OPT-B",
         "originalLabel": "B",
-        "text": "The cardinality, or multiplicity, of each relationship is shown with a number or letter on the lines that connect"
+        "text": "The cardinality, or multiplicity, of each relationship is shown with a number or letter on the lines that connect entities and relationships"
       },
       {
         "id": "SWR302-Q0186-OPT-C",
@@ -7209,13 +7209,13 @@
       {
         "id": "SWR302-Q0186-OPT-D",
         "originalLabel": "D",
-        "text": "The diamonds in the ERD represent relationships, which identify the logical linkages between pairs of"
+        "text": "The diamonds in the ERD represent relationships, which identify the logical linkages between pairs of entities"
       }
     ],
     "correctOptionId": "SWR302-Q0186-OPT-A",
     "explanation": "Các instance của cùng một thực thể có cùng kiểu thuộc tính nhưng giá trị thuộc tính thường khác nhau.",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following statements is incorrect about ERD?",
     "sourceImages": [
       "slide_214.png"
     ],
@@ -7308,12 +7308,12 @@
       {
         "id": "SWR302-Q0189-OPT-A",
         "originalLabel": "A",
-        "text": "A horizontal prototype focuses on the user interface, allowing exploration of specific behaviors without"
+        "text": "A horizontal prototype focuses on the user interface, allowing exploration of specific behaviors without diving into detailed functionality or architectural layers."
       },
       {
         "id": "SWR302-Q0189-OPT-B",
         "originalLabel": "B",
-        "text": "A horizontal prototype fully implements all layers of the system, from the user interface to the backend"
+        "text": "A horizontal prototype fully implements all layers of the system, from the user interface to the backend services."
       },
       {
         "id": "SWR302-Q0189-OPT-C",
@@ -7323,7 +7323,7 @@
       {
         "id": "SWR302-Q0189-OPT-D",
         "originalLabel": "D",
-        "text": "A horizontal prototype includes detailed implementation of business logic and database interactions."
+        "text": "A horizontal prototype includes detailed implementation of business logic and database interactions. IGG"
       }
     ],
     "correctOptionId": "SWR302-Q0189-OPT-A",
@@ -7394,7 +7394,7 @@
       {
         "id": "SWR302-Q0191-OPT-C",
         "originalLabel": "C",
-        "text": "There are matters that should be, but are not, elicited through the elicitation process. They exist, but they"
+        "text": "There are matters that should be, but are not, elicited through the elicitation process. They exist, but they are not realized."
       },
       {
         "id": "SWR302-Q0191-OPT-D",
@@ -7405,7 +7405,7 @@
     "correctOptionId": "SWR302-Q0191-OPT-C",
     "explanation": "Unknown unknowns là những yêu cầu hoặc vấn đề tồn tại nhưng các bên liên quan chưa nhận ra để đề cập.",
     "chapter": "",
-    "topic": "",
+    "topic": "How can you explain the statement \"Implicit requirements can also be unknown unknowns\"?",
     "sourceImages": [
       "slide_219.png"
     ],
@@ -7672,7 +7672,7 @@
     "correctOptionId": "SWR302-Q0198-OPT-C",
     "explanation": "Quan hệ «extend» biểu thị hành vi mở rộng tùy chọn, chỉ được thực hiện khi có điều kiện phù hợp.",
     "chapter": "",
-    "topic": "",
+    "topic": "Consider the use case diagram for the Chemical Tracking System. How does the \"extend\" relationship between \"Request a Chemical\" and \"Search Vendor Catalogs\" affect the system's functionality?",
     "sourceImages": [
       "slide_226.png"
     ],
@@ -7689,7 +7689,7 @@
       {
         "id": "SWR302-Q0199-OPT-A",
         "originalLabel": "A",
-        "text": "It deals with blocking unauthorized access to system functions or data, ensuring that the software is"
+        "text": "It deals with blocking unauthorized access to system functions or data, ensuring that the software is protected from malware attacks, and so on."
       },
       {
         "id": "SWR302-Q0199-OPT-B",
@@ -7770,7 +7770,7 @@
       {
         "id": "SWR302-Q0201-OPT-B",
         "originalLabel": "B",
-        "text": "By maintaining a dynamic product backlog where new tasks are prioritized based on business value, and"
+        "text": "By maintaining a dynamic product backlog where new tasks are prioritized based on business value, and lower-priority tasks can be deferred or removed."
       },
       {
         "id": "SWR302-Q0201-OPT-C",
@@ -7780,7 +7780,7 @@
       {
         "id": "SWR302-Q0201-OPT-D",
         "originalLabel": "D",
-        "text": "By escalating all change requests to a higher-level change authority, regardless of their impact on the"
+        "text": "By escalating all change requests to a higher-level change authority, regardless of their impact on the project."
       }
     ],
     "correctOptionId": "SWR302-Q0201-OPT-B",
@@ -7808,23 +7808,23 @@
       {
         "id": "SWR302-Q0202-OPT-B",
         "originalLabel": "B",
-        "text": "The data dictionary should only store information about complex data structures, not individual data"
+        "text": "The data dictionary should only store information about complex data structures, not individual data elements."
       },
       {
         "id": "SWR302-Q0202-OPT-C",
         "originalLabel": "C",
-        "text": "The data dictionary should list all data elements alphabetically, regardless of their relationships or grouping"
+        "text": "The data dictionary should list all data elements alphabetically, regardless of their relationships or grouping in the system."
       },
       {
         "id": "SWR302-Q0202-OPT-D",
         "originalLabel": "D",
-        "text": "The data dictionary should contain information about each data element, including its data type, length, and"
+        "text": "The data dictionary should contain information about each data element, including its data type, length, and any associated constraints."
       }
     ],
     "correctOptionId": "SWR302-Q0202-OPT-D",
     "explanation": "Data Dictionary là tài liệu mô tả chi tiết các thành phần dữ liệu để đảm bảo tính nhất quán và dễ quản lý.",
     "chapter": "",
-    "topic": "",
+    "topic": "In the context of a data dictionary, which of the following is true about organizing data elements?",
     "sourceImages": [
       "slide_230.png"
     ],
@@ -7836,7 +7836,7 @@
   },
   {
     "id": "SWR302-Q0203",
-    "question": "where a product owner is unable to understand all user requirements due to the complexity of the project. Which approach would you recommend?",
+    "question": "Propose a solution for a scenario where a product owner is unable to understand all user requirements due to the complexity of the project. Which approach would you recommend?",
     "options": [
       {
         "id": "SWR302-Q0203-OPT-A",
@@ -7918,12 +7918,12 @@
       {
         "id": "SWR302-Q0205-OPT-A",
         "originalLabel": "A",
-        "text": "They gather requirements from other members of the user classes they represent and reconcile"
+        "text": "They gather requirements from other members of the user classes they represent and reconcile inconsistencies"
       },
       {
         "id": "SWR302-Q0205-OPT-B",
         "originalLabel": "B",
-        "text": "They serve as the primary interface between members of a single user class and the project's business"
+        "text": "They serve as the primary interface between members of a single user class and the project's business analyst"
       },
       {
         "id": "SWR302-Q0205-OPT-C",
@@ -8069,7 +8069,7 @@
       {
         "id": "SWR302-Q0209-OPT-A",
         "originalLabel": "A",
-        "text": "Story decomposition refers to breaking down user stories into smaller epics for implementation in agile"
+        "text": "Story decomposition refers to breaking down user stories into smaller epics for implementation in agile projects"
       },
       {
         "id": "SWR302-Q0209-OPT-B",
@@ -8079,13 +8079,13 @@
       {
         "id": "SWR302-Q0209-OPT-C",
         "originalLabel": "C",
-        "text": "User stories are concise statements that articulate user needs and serve as a starting point for detailed"
+        "text": "User stories are concise statements that articulate user needs and serve as a starting point for detailed discussions"
       }
     ],
     "correctOptionId": "SWR302-Q0209-OPT-B",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following statements accurately describe user stories and epics in agile development? Select all that apply",
     "sourceImages": [
       "slide_239.png"
     ],
@@ -8528,7 +8528,7 @@
   },
   {
     "id": "SWR302-Q0221",
-    "question": "what is true about an epic? Choose 3 correct answers.",
+    "question": "In agile projects, what is true about an epic? Choose 3 correct answers.",
     "options": [
       {
         "id": "SWR302-Q0221-OPT-A",
@@ -8543,18 +8543,18 @@
       {
         "id": "SWR302-Q0221-OPT-C",
         "originalLabel": "C",
-        "text": "Itcan span iterations."
+        "text": "It can span iterations."
       },
       {
         "id": "SWR302-Q0221-OPT-D",
         "originalLabel": "D",
-        "text": "It is the most important feature of an iteration"
+        "text": "It is the most important feature of an iteration."
       }
     ],
     "correctOptionId": "SWR302-Q0221-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "In agile projects, what is true about an epic? Choose 3 correct answers.",
     "sourceImages": [
       "slide_258.png"
     ],
@@ -8872,13 +8872,13 @@
       {
         "id": "SWR302-Q0229-OPT-D",
         "originalLabel": "D",
-        "text": "Risk management planning produces a plan for dealing with each significant risk, including mitigation"
+        "text": "Risk management planning produces a plan for dealing with each significant risk, including mitigation approaches, contingency plans, owners, and timelines"
       }
     ],
     "correctOptionId": "SWR302-Q0229-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "Which is NOT element of risk management?",
     "sourceImages": [
       "slide_269.png"
     ],
@@ -9054,27 +9054,27 @@
   },
   {
     "id": "SWR302-Q0234",
-    "question": "Which of the following is not an elicitation activity? EE Elicitation",
+    "question": "Which of the following is not an elicitation activity?",
     "options": [
       {
         "id": "SWR302-Q0234-OPT-A",
         "originalLabel": "A",
-        "text": "Define product vision and project scope © Sete veer 2nd"
+        "text": "Define product vision and project scope"
       },
       {
         "id": "SWR302-Q0234-OPT-B",
         "originalLabel": "B",
-        "text": "Hold elicitation interviews champions"
+        "text": "Hold elicitation interviews"
       },
       {
         "id": "SWR302-Q0234-OPT-C",
         "originalLabel": "C",
-        "text": "Observe users performing their jobs HT a eas"
+        "text": "Observe users performing their jobs"
       },
       {
         "id": "SWR302-Q0234-OPT-D",
         "originalLabel": "D",
-        "text": "Model the application environment interviews"
+        "text": "Model the application environment"
       }
     ],
     "correctOptionId": "SWR302-Q0234-OPT-D",
@@ -9363,28 +9363,28 @@
       {
         "id": "SWR302-Q0242-OPT-A",
         "originalLabel": "A",
-        "text": "Developers have little interaction with customers after construction begins on projects"
+        "text": "Developers have little interaction with customers after construction begins on projects."
       },
       {
         "id": "SWR302-Q0242-OPT-B",
         "originalLabel": "B",
-        "text": "It encourage creating the minimum amount of documentation needed to accurately guide the developers"
+        "text": "It encourages creating the minimum amount of documentation needed to accurately guide the developers and testers."
       },
       {
         "id": "SWR302-Q0242-OPT-C",
         "originalLabel": "C",
-        "text": "BAs or other people responsible for requirements will develop the necessary precision through"
+        "text": "BAs or other people responsible for requirements will develop the necessary precision through conversations and documentation when it is needed."
       },
       {
         "id": "SWR302-Q0242-OPT-D",
         "originalLabel": "D",
-        "text": "The se collaboration of customers with developers on agile projects generally means that requirements"
+        "text": "The collaboration of customers with developers on agile projects generally means that requirements can be documented in less detail."
       }
     ],
     "correctOptionId": "SWR302-Q0242-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following is NOT about Agile project?",
     "sourceImages": [
       "slide_288.png"
     ],
@@ -10574,7 +10574,7 @@
   },
   {
     "id": "SWR302-Q0273",
-    "question": "who is primarily responsible for communicating project information?",
+    "question": "In a project, who is primarily responsible for communicating project information?",
     "options": [
       {
         "id": "SWR302-Q0273-OPT-A",
@@ -10612,7 +10612,7 @@
   },
   {
     "id": "SWR302-Q0274",
-    "question": "what is an entity typically represented by?",
+    "question": "In an ERD, what is an entity typically represented by?",
     "options": [
       {
         "id": "SWR302-Q0274-OPT-A",
@@ -10622,7 +10622,7 @@
       {
         "id": "SWR302-Q0274-OPT-B",
         "originalLabel": "B",
-        "text": "Arectangle"
+        "text": "A rectangle"
       },
       {
         "id": "SWR302-Q0274-OPT-C",
@@ -10638,7 +10638,7 @@
     "correctOptionId": "SWR302-Q0274-OPT-B",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "In an ERD, what is an entity typically represented by?",
     "sourceImages": [
       "slide_337.png"
     ],
@@ -11055,7 +11055,7 @@
   },
   {
     "id": "SWR302-Q0286",
-    "question": "customers with developers on agile projects generally means that requirements can be documented in ______ detail than on traditional projects",
+    "question": "The close collaboration of customers with developers on agile projects generally means that requirements can be documented in ______ detail than on traditional projects",
     "options": [
       {
         "id": "SWR302-Q0286-OPT-A",
@@ -11081,7 +11081,7 @@
     "correctOptionId": "SWR302-Q0286-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "The close collaboration of customers with developers on agile projects generally means that requirements can be documented in ______ detail than on traditional projects",
     "sourceImages": [
       "slide_350.png"
     ],
@@ -11293,17 +11293,17 @@
       {
         "id": "SWR302-Q0292-OPT-B",
         "originalLabel": "B",
-        "text": "You consider is how much modification will be needed to make existing requirements reusable on the new"
+        "text": "You consider is how much modification will be needed to make existing requirements reusable on the new project"
       },
       {
         "id": "SWR302-Q0292-OPT-C",
         "originalLabel": "C",
-        "text": "It is is simply a copy-and-paste of a piece of requirements information, either from another specification or"
+        "text": "It is is simply a copy-and-paste of a piece of requirements information, either from another specification or from a library of reusable requirements"
       },
       {
         "id": "SWR302-Q0292-OPT-D",
         "originalLabel": "D",
-        "text": "It specific functional requirements within use cases, performance requirements, usability requirements,"
+        "text": "It specific functional requirements within use cases, performance requirements, usability requirements, business rules"
       }
     ],
     "correctOptionId": "SWR302-Q0292-OPT-A",
@@ -11369,7 +11369,7 @@
       {
         "id": "SWR302-Q0294-OPT-B",
         "originalLabel": "B",
-        "text": "It is a project that replaces an existing application with a new custom-built system, a commercial"
+        "text": "It is a project that replaces an existing application with a new custom-built system, a commercial off-the-shelf system, or a hybrid of those."
       },
       {
         "id": "SWR302-Q0294-OPT-C",
@@ -11385,7 +11385,7 @@
     "correctOptionId": "SWR302-Q0294-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "What is an enhancement project?",
     "sourceImages": [
       "slide_359.png"
     ],
@@ -11412,13 +11412,13 @@
       {
         "id": "SWR302-Q0295-OPT-C",
         "originalLabel": "C",
-        "text": "A set of requirements that stakeholders have agreed to, often defining the contents of a specific planned"
+        "text": "A set of requirements that stakeholders have agreed to, often defining the contents of a specific planned release or development iteration"
       }
     ],
     "correctOptionId": "SWR302-Q0295-OPT-C",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "What is a requirements baseline?",
     "sourceImages": [
       "slide_360.png"
     ],
@@ -12157,7 +12157,7 @@
       {
         "id": "SWR302-Q0315-OPT-A",
         "originalLabel": "A",
-        "text": "Functional requirements describe what the system does; non-functional requirements describe how the"
+        "text": "Functional requirements describe what the system does; non-functional requirements describe how the system performs"
       },
       {
         "id": "SWR302-Q0315-OPT-B",
@@ -12178,7 +12178,7 @@
     "correctOptionId": "SWR302-Q0315-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "What is the key difference between functional and non-functional requirements?",
     "sourceImages": [
       "slide_380.png"
     ],
@@ -12243,7 +12243,7 @@
       {
         "id": "SWR302-Q0317-OPT-C",
         "originalLabel": "C",
-        "text": "One or more logically related system capabilities that provide value to a user and are described by a set of"
+        "text": "One or more logically related system capabilities that provide value to a user and are described by a set of functional requirements"
       },
       {
         "id": "SWR302-Q0317-OPT-D",
@@ -12571,7 +12571,7 @@
   },
   {
     "id": "SWR302-Q0326",
-    "question": "which of the following statements is incorrect about ERD?",
+    "question": "Which of the following statements is incorrect about ERD?",
     "options": [
       {
         "id": "SWR302-Q0326-OPT-A",
@@ -12581,7 +12581,7 @@
       {
         "id": "SWR302-Q0326-OPT-B",
         "originalLabel": "B",
-        "text": "The cardinality, or multiplicity, of each relationship is shown with a number or letter on the lines that"
+        "text": "The cardinality, or multiplicity, of each relationship is shown with a number or letter on the lines that connect entities and relationships"
       },
       {
         "id": "SWR302-Q0326-OPT-C",
@@ -12591,13 +12591,13 @@
       {
         "id": "SWR302-Q0326-OPT-D",
         "originalLabel": "D",
-        "text": "The diamonds in the ERD represent relationships, which identify the logical linkages between pairs of"
+        "text": "The diamonds in the ERD represent relationships, which identify the logical linkages between pairs of entities"
       }
     ],
     "correctOptionId": "SWR302-Q0326-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following statements is incorrect about ERD?",
     "sourceImages": [
       "slide_395.png"
     ],
@@ -12629,13 +12629,13 @@
       {
         "id": "SWR302-Q0327-OPT-D",
         "originalLabel": "D",
-        "text": "It is a spreadsheet that maps requirements to other project artifacts such as design documents, test"
+        "text": "It is a spreadsheet that maps requirements to other project artifacts such as design documents, test cases, and source code"
       }
     ],
     "correctOptionId": "SWR302-Q0327-OPT-D",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following best describes the structure of the Requirements Traceability Matrix (RTM)?",
     "sourceImages": [
       "slide_396.png"
     ],
@@ -12768,23 +12768,23 @@
       {
         "id": "SWR302-Q0331-OPT-A",
         "originalLabel": "A",
-        "text": "Medium-priority requirements are important (customers need the capability) but not urgent (they can wait"
+        "text": "Medium-priority requirements are important (customers need the capability) but not urgent (they can wait for a later release)"
       },
       {
         "id": "SWR302-Q0331-OPT-B",
         "originalLabel": "B",
-        "text": "High-priority requirements are both important (customers need the capability) and urgent (customers need"
+        "text": "High-priority requirements are both important (customers need the capability) and urgent (customers need it in the next release)"
       },
       {
         "id": "SWR302-Q0331-OPT-C",
         "originalLabel": "C",
-        "text": "Low-priority requirements are not important (customers can live without the capability if necessary) but"
+        "text": "Low-priority requirements are not important (customers can live without the capability if necessary) but urgent for some stakeholders"
       }
     ],
     "correctOptionId": "SWR302-Q0331-OPT-C",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "Which of the following statements are incorrect about Three-level scale technique?",
     "sourceImages": [
       "slide_400.png"
     ],
@@ -12834,27 +12834,27 @@
   },
   {
     "id": "SWR302-Q0333",
-    "question": "which of the following statements is incorrect about mockup?",
+    "question": "Which of the following statements is incorrect about mockup?",
     "options": [
       {
         "id": "SWR302-Q0333-OPT-A",
         "originalLabel": "A",
-        "text": "also called a horizontal prototype"
+        "text": "Also called a horizontal prototype"
       },
       {
         "id": "SWR302-Q0333-OPT-B",
         "originalLabel": "B",
-        "text": "itdives into all the architectural layers or into detailed functionality"
+        "text": "It dives into all the architectural layers or into detailed functionality"
       },
       {
         "id": "SWR302-Q0333-OPT-C",
         "originalLabel": "C",
-        "text": "displays the facades of user interface screens and permits some navigation between them"
+        "text": "Displays the facades of user interface screens and permits some navigation between them"
       },
       {
         "id": "SWR302-Q0333-OPT-D",
         "originalLabel": "D",
-        "text": "let's you explore some specific behaviors of the intended system, with the goal of refining the requirements"
+        "text": "Lets you explore some specific behaviors of the intended system, with the goal of refining the requirements"
       }
     ],
     "correctOptionId": "SWR302-Q0333-OPT-B",
@@ -13153,7 +13153,7 @@
       {
         "id": "SWR302-Q0341-OPT-A",
         "originalLabel": "A",
-        "text": "The people, groups, or organizations that are actively involved in a project, are affected by its outcome, or"
+        "text": "The people, groups, or organizations that are actively involved in a project, are affected by its outcome, or are able to influence its outcome"
       },
       {
         "id": "SWR302-Q0341-OPT-B",
@@ -13163,7 +13163,7 @@
       {
         "id": "SWR302-Q0341-OPT-C",
         "originalLabel": "C",
-        "text": "It helps you identify which support you need, who can influence the support, and potential issues that result"
+        "text": "It helps you identify which support you need, who can influence the support, and potential issues that result from a non-supportive stakeholder"
       },
       {
         "id": "SWR302-Q0341-OPT-D",
@@ -13174,7 +13174,7 @@
     "correctOptionId": "SWR302-Q0341-OPT-A",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "Why is it important to identify stakeholders when eliciting the requirements for a software system?",
     "sourceImages": [
       "slide_419.png"
     ],
@@ -13391,7 +13391,7 @@
       {
         "id": "SWR302-Q0347-OPT-C",
         "originalLabel": "C",
-        "text": "There are matters that should be, but are not, elicited through the elicitation process. They exist, but they"
+        "text": "There are matters that should be, but are not, elicited through the elicitation process. They exist, but they are not realized"
       },
       {
         "id": "SWR302-Q0347-OPT-D",
@@ -13402,7 +13402,7 @@
     "correctOptionId": "SWR302-Q0347-OPT-C",
     "explanation": "",
     "chapter": "",
-    "topic": "",
+    "topic": "How can you explain the statement \"Implicit requirements can also be unknown unknowns\"?",
     "sourceImages": [
       "slide_425.png"
     ],
@@ -13685,7 +13685,7 @@
       {
         "id": "SWR302-Q0355-OPT-A",
         "originalLabel": "A",
-        "text": "It deals with blocking unauthorized access to system functions or data, ensuring that the software is"
+        "text": "It deals with blocking unauthorized access to system functions or data, ensuring that the software is protected from malware attacks, and so on"
       },
       {
         "id": "SWR302-Q0355-OPT-B",
@@ -13728,7 +13728,7 @@
       {
         "id": "SWR302-Q0356-OPT-B",
         "originalLabel": "B",
-        "text": "The indicators that stakeholders will use to define and measure success on this project and the statement"
+        "text": "The indicators that stakeholders will use to define and measure success on this project and the statement that is believed to be true in the absence of proof or definitive knowledge"
       },
       {
         "id": "SWR302-Q0356-OPT-C",
@@ -13738,7 +13738,7 @@
       {
         "id": "SWR302-Q0356-OPT-D",
         "originalLabel": "D",
-        "text": "The ultimate product that will achieve the business objectives and what portion of the ultimate product"
+        "text": "The ultimate product that will achieve the business objectives and what portion of the ultimate product vision the current project or development iteration will address"
       }
     ],
     "correctOptionId": "SWR302-Q0356-OPT-D",
