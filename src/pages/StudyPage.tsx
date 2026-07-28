@@ -122,9 +122,26 @@ export function StudyPage() {
                   </p>
                   <p className="mt-1 text-xs text-muted">Source: {currentQuestion.sourceImages.join(', ')}</p>
                 </div>
-                <div className="inline-flex items-center gap-2 rounded-md border border-line bg-canvas px-3 py-2 text-sm font-semibold text-muted">
-                  <ImageIcon size={16} />
-                  Ảnh câu hỏi
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-end">
+                  <Button
+                    className="w-full sm:w-auto sm:px-3"
+                    disabled={safeIndex === 0}
+                    onClick={() => goToQuestion(safeIndex - 1)}
+                  >
+                    <ArrowLeft size={16} /> Câu trước
+                  </Button>
+                  <Button
+                    className="w-full sm:w-auto sm:px-3"
+                    disabled={safeIndex === filteredQuestions.length - 1}
+                    onClick={() => goToQuestion(safeIndex + 1)}
+                    variant="primary"
+                  >
+                    Câu tiếp <ArrowRight size={16} />
+                  </Button>
+                  <div className="inline-flex items-center justify-center gap-2 rounded-md border border-line bg-canvas px-3 py-2 text-sm font-semibold text-muted">
+                    <ImageIcon size={16} />
+                    Ảnh câu hỏi
+                  </div>
                 </div>
               </div>
 
